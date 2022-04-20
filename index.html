@@ -47,6 +47,16 @@
         a{
           color: #fb8500;
         }
+
+        .responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
     </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -62,7 +72,7 @@
     <header>
       <div class="container navbar-container" style="padding: 0px;">
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Sharif Haji</a>
+     <!--    <a class="navbar-brand" href="#">Sharif Haji</a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -118,7 +128,7 @@
       <section  style="background-color: #fe8c08;"> 
           <div class="row justify-content-center">
           <div class="col-lg-12 row justify-content-center col-sm-4 ">
-            <img class="img-fluid  text-center" src="https://i.imgur.com/GePpveR.png">
+            <img class="img-fluid  text-center" src="https://i.imgur.com/eVbbASp.png">
           </div>
         </div>
       </section>
@@ -139,37 +149,41 @@
             </div>
 
             <div class="row justify-content-center">
-          <h4> Live in <a href="">Edmonton-Decore</a>? Buy a <a href="">$10 NDP Membership today. </a></h4>
+          <h4> Live in <a href="">Edmonton-Decore</a>? Buy a 
+           
+            <a  data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1" >$10 NDP Membership today. </a>
+            </h4>
+
+
+          
         </div>
+
+  
         </div>
        </div>
-       <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Sign Up</a>
-    </section>
+        </section>
 
+        
 
-    <section id="collapsable forum embed" >
+    <section id="membership_area" >
       <div class="container">
         <p>
-       
+         
         <!--   <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
       -->   </p>
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col">
             <div class="collapse multi-collapse" id="multiCollapseExample1">
-              <div class="card card-body">
-                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbbDWJIy7SqHCUZ4FOaLr-bxpzCz79_Kiltsxs3jTPBL6peg/viewform?embedded=true" width="640" height="1034" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  </div>
+              <div class="card card-body container">
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScbbDWJIy7SqHCUZ4FOaLr-bxpzCz79_Kiltsxs3jTPBL6peg/viewform?embedded=true"  height="1034" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>  </div>
             </div>
           </div>
-          <div class="col">
-            <div class="collapse multi-collapse" id="multiCollapseExample2">
-              <div class="card card-body">
-                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
-              </div>
-            </div>
-          </div>
-        </div>
+         
     </div>
+
+
+  </div>
 
     </section>
 
@@ -287,6 +301,63 @@
 
 
 </footer> -->
+
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-light text-muted container">
+  <!-- Section: Social media -->
+  <section
+    class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom container"
+  >
+
+  </section>
+  <!-- Section: Social media -->
+
+  <!-- Section: Links  -->
+  <section class="">
+    <div class="container text-center">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+
+            <p>We acknowledge that we are on Treaty 6 territory, a traditional meeting grounds, gathering place, and travelling route to the Cree, Saulteaux, Blackfoot, Métis, Dene and Nakota Sioux. We acknowledge all the many
+            First Nations, Métis, and Inuit whose footsteps have marked these lands for centuries
+  
+        </p>
+
+        </div>
+    
+    </div>
+
+    <div class="row mx-auto">
+      <!-- Links -->
+      <h5 class="text-uppercase fw-bold mb-4">
+        Contact
+      </h5>
+      <div class="row mx-auto">
+      <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+      <p>
+        <i class="fas fa-envelope me-3"></i>
+        info@example.com
+      </p>
+      <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+    </div>
+    </div>
+       
+  </section>
+
+  
+<br>
+  <!-- Section: Links  -->
+
+  <!-- Copyright -->
+  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+    © 2022 Copyright:
+    <a class="text-reset fw-bold" href="https://mdbootstrap.com/">SharifHaji.ca</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
